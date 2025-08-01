@@ -1,0 +1,23 @@
+.experience {
+    background: hsla(0, 0%, 0%, 0.296);
+    color: whitesmoke;
+  padding: 2rem 0;
+}
+
+.experience-banner {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+
+
+.experience-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.experience-content p {
+  margin-bottom: 1rem;
+}
+    
+ 
