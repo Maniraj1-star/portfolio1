@@ -12,6 +12,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import About from "./Component/About.jsx";
 import MySkill from "./Component/Myskill.jsx";
 import Experience from "./Component/Experience.jsx";
+import Project from "./Component/Project.jsx";
+import Contact from "./Component/Contact.jsx";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +32,15 @@ const router = createBrowserRouter([
     path: "/experience",
     element: <Experience />,
   },
+  {
+    path: "/projects",
+    element: <Project />,
+  }
+  ,
+  {
+    path: "/contact",
+    element: <Contact />,
+  }
 ]);
 
 createRoot(document.getElementById("root")).render(

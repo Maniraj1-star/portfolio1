@@ -2,9 +2,11 @@ import React from "react";
 import "./Header.css"; // Assuming you have a CSS file for styling
 import { Link } from "react-router-dom";
 
+
 function Header() {
+
   return (
-    <header>
+    <header> 
 
       <div className="header-container">
             <h1>Welcome to My Portfolio</h1>
@@ -14,7 +16,7 @@ function Header() {
           <a href="/" className="logo-link">
             <img src="/logo.png" alt="Logo" className="logo" />
           </a>
-          <div className="tagline">
+          <div className="tagline"> 
            
           </div>
         </div>
@@ -24,26 +26,28 @@ function Header() {
       <nav className="nav-links">
         <ul>
           <li>
-           <Link to={"/about"}>About</Link>
+           <Link to={"/about"} target="_blank" rel="noopener noreferrer">About</Link>
           </li>
           <li>
-            <Link to={"/skills"}>Skills</Link>
+            <Link to={"/skills"} target="_blank" rel="noopener noreferrer">Skills</Link>
           </li>
           <li>
-            <Link to={"/experience"}>Experience</Link>
+            <Link to={"/experience"} target="_blank" rel="noopener noreferrer">Experience</Link>
           </li>
           <li>
-            <Link to={"/projects"}>Projects</Link>
+            <Link to={"/projects"} target="_blank" rel="noopener noreferrer">Projects</Link>
           </li>
           <li>
-            <Link to={"/contact"}>Contact</Link>
+            <Link to={"/contact"} target="_blank" rel="noopener noreferrer">Contact</Link>
           </li>
         </ul>
       </nav>
    
       <div className="search-bar">
-        <input type="text" placeholder="Search..." />
-        <button type="submit">Search</button>
+        <form className="search-form">
+          <input type="text" placeholder="Search..." />
+          <button type="submit">Search</button>
+        </form>
       </div>
         
     </header>
