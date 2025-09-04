@@ -3,12 +3,14 @@ import Header from "../Header";
 import "../Pages/Contact.css"; // Assuming you have a CSS file for styles
 
 function Contact() {
+  
 
   return (
     <>
       <Header />
 
       <div className="contact-us ">
+
         <h1 className="text-center">Contact Me</h1>
         <div className="contact-info ">
           <p>Email: raimaniraj658@gmail.com</p>
@@ -17,6 +19,7 @@ function Contact() {
         <p className="text-center text-secondary">
           Feel free to reach out for any inquiries or collaboration
           opportunities!
+
         </p> <div className="container" id="contact">
         <h2 className="display-5">Get in touch</h2>
         <div className="contact-form">
@@ -42,14 +45,14 @@ function Contact() {
             <ul>
               <li>
                 <a
-                  href="https://www.facebook.com/in/yourprofile"
+                  href="https://www.facebook.com/Maniraj Rai"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i className="bi bi-facebook"></i>
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/yourprofile"
+                  href="https://www.linkedin.com/in/Maniraj Rai"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -61,7 +64,7 @@ function Contact() {
           <ul className="list-unstyled text-end">
             <li>
               <a
-                href="https://www.linkedin.com/in/yourprofile"
+                href="https://www.linkedin.com/in/Maniraj Rai"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -70,7 +73,7 @@ function Contact() {
             </li>
             <li>
               <a
-                href="https://github.com/yourprofile"
+                href="https://github.com/Maniraj Rai"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -79,7 +82,7 @@ function Contact() {
             </li>
             <li>
               <a
-                href="https://twitter.com/yourprofile"
+                href="https://twitter.com/Maniraj Rai"
                 target="_blank"
                 rel="noopener noreferrer"
               >
