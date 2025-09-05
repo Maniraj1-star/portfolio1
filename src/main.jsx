@@ -7,6 +7,8 @@ import "./index.css"; // Assuming you have a global CSS file for styles
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"; // Import Bootstrap CSS
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"; // Import Bootstrap JS
 import "../node_modules/bootstrap-icons/font/bootstrap-icons.css"; // Import Bootstrap Icons
+// import "../node_modules/nodemailer";
+
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import About from "./Component/About.jsx";
@@ -41,6 +43,7 @@ const router = createBrowserRouter([
     path: "/contact",
     element: <Contact />,
   }
+
 ]);
 
 createRoot(document.getElementById("root")).render(

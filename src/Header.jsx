@@ -69,9 +69,8 @@ function Header() {
           <form className="search-form" onSubmit={handleSearch}>
 
             <label htmlFor="search-input" className="visually-hidden">Search</label>
-
-            <input type="text" id="search-input" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} placeholder="Search..." />
             
+            <input type="text" id="search-input"  value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)}  placeholder="Search..." />
             <button type="submit">Search</button>
           </form>
 
